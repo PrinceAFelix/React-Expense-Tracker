@@ -1,0 +1,20 @@
+.addexp-container{
+    margin-top: 50px;
+    width: 800px;
+    height: 110px;
+    background-color: #8979E1;
+    border-radius: 10px;
+  }
+  
+  .addexp-container button{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 230px;
+    height: 70px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #250A3D;
+    border: none;
+    border-radius: 10px;
+  }

@@ -1,0 +1,28 @@
+.item-container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    height: 130px;
+    background-color: #323132;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+
+  .item-container .item-description{
+    display: flex;
+    align-items : center;
+    flex: 1;
+    gap: 20rem;
+
+  }
+
+  .item-container .item-description h2{
+    font-size: 26px;
+  }
+
+  
