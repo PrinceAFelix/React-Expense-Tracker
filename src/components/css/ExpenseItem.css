@@ -13,16 +13,44 @@
     padding: 10px;
   }
 
+  .item-container .message{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
   .item-container .item-description{
     display: flex;
     align-items : center;
     flex: 1;
-    gap: 20rem;
+    gap: 10rem;
+    text-align: left;
 
+  }
+
+  .item-container .item-name{
+    color: #3a3a3a;
+    font-size: 30px;
+    flex: 1;
+    margin: 0 1rem;
+    color: white;
+  }
+  
+  .item-container .item-amount{
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #40005d;
+    border: 1px solid white;
+    padding: 0.5rem;
+    border-radius: 12px;
+    
   }
 
   .item-container .item-description h2{
     font-size: 26px;
   }
+
+  
 
   
