@@ -1,5 +1,5 @@
 
-import '../css/Card.css'
+import '../../styles/ui/Card.css'
 export const Card = (props) => {
     const classes = 'card ' + props.className;
     return (

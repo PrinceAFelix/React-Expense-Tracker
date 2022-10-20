@@ -1,4 +1,4 @@
-import '../css/ExpenseItem.css';
+import '../../styles/ui/ExpenseItem.css';
 
 export const EmptyExpense = () => {
     return (

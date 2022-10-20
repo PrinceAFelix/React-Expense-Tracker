@@ -1,14 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import { ExpenseDate } from "./ExpenseDate";
-import '../css/ExpenseItem.css';
+import '../../styles/ui/ExpenseItem.css';
 
 export const ExpenseItem = (props) => {
 
-    const [list, setList] = useState(props.expList);
     // const [description, setDescription] = useState('');
     // const [isAdd, setAddState] = useState(false);
-
-
 
     return (
         <div className="item-container">

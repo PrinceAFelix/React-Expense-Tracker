@@ -1,13 +1,16 @@
 import React, { useState } from "react";
-import { ExpenseGraph } from "./ExpenseGraph";
-import { ExpensesList } from "./ExpensesList";
-import { Card } from "./Card";
+import { ExpenseDateFilter } from "../components/ui/ExpenseDateFilter";
+import { ExpensesList } from "../components/ui/ExpensesList";
+import { Card } from "../components/ui/Card";
+import { ExpenseChart } from "../components/ui/ExpenseChart";
 
 
 
-import '../css/ExpenseContainer.css'
+import '../styles/pages/ExpenseContainer.css'
 
 export const ExpenseContainer = (props) => {
+
+
 
     const [year, setYear] = useState('2022')
 
@@ -23,7 +26,8 @@ export const ExpenseContainer = (props) => {
     return (
         <div >
             <Card className="expense-container">
-                <ExpenseGraph selected={year} onSelectYear={selectedYear} />
+                <ExpenseDateFilter selected={year} onSelectYear={selectedYear} />
+                <ExpenseChart expensesData={selectedExpByYear} />
                 <ExpensesList exp={selectedExpByYear} />
             </Card >
         </div>

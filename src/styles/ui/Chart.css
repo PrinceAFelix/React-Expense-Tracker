@@ -1,0 +1,11 @@
+.chart-container {
+  position: relative;
+  width: 95%;
+  height: 180px;
+  background-color: #efd4fc;
+  border-radius: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 15px;
+  padding-top: 15px;
+}

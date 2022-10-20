@@ -1,6 +1,6 @@
 import React from "react";
 
-import '../css/ExpenseDate.css'
+import '../../styles/ui/ExpenseDate.css'
 export const ExpenseDate = (props) => {
     return (
         <div className="date-container">
